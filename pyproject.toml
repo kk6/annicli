@@ -4,8 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["kk6 <hiro.ashiya@gmail.com>"]
 
+[tool.poetry.scripts]
+annicli = "annicli.app:application.run"
+
 [tool.poetry.dependencies]
 python = "^3.7"
+cleo = "^0.7.2"
+annict = "^0.7.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
